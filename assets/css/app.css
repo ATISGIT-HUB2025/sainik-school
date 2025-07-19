@@ -1743,7 +1743,9 @@ input[type="password"],
 input[type="email"],
 input[type="number"],
 input[type="tel"],
-textarea {
+input[type="date"],
+textarea,
+select {
   font-size: 15px;
   background-color: var(--color-white);
   box-shadow: none;
@@ -3875,8 +3877,8 @@ button.edu-btn.btn-large i {
 
 a.edu-btn.btn-medium,
 button.edu-btn.btn-medium {
-  height: 50px;
-  line-height: 51px;
+  height: 40px;
+  line-height: 40px;
   padding: 0 25px;
 }
 
@@ -31715,6 +31717,7 @@ body .tpd-size-medium .tpd-content {
 .header-style-7 input[type="email"],
 .header-style-7 input[type="number"],
 .header-style-7 input[type="tel"],
+.header-style-7 input[type="date"],
 .header-style-7 textarea {
   background-color: transparent;
 }
